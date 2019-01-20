@@ -18,22 +18,23 @@
 	<header></header>
 	<h1> Our goal is to make the population of Santa Cruz County feel safe by providing information through an alert text message so that they can be aware of what is happening around them and take action, if needed. </h1>
 	<nav>
-		<li><a>Name</a> </li>
-		<form action="/">
-		<input id="name" type="text" placeholder="Name">
+		<li><a>First Name</a> </li>
+		<form method="POST">
+		<input name="first" id="name" type="text" placeholder="First Name">
 		<li><a>Last Name </a> </li>
-		<input id="last" type="text" placeholder="Last Name">
+		<input name="last" id="last" type="text" placeholder="Last Name">
 		<li><a>Number</a> </li>
-		<input id="number" type="text" placeholder="Number">
+		<input name="number" id="number" type="text" placeholder="Number">
 		<input type="submit" name="submit" value="Submit" id="submit" />
 		</form>
-		<!-- <script>
+		<script>
 			function submit(){
 				  var first = document.getElementById("name").value;
 				  var last = document.getElementById("last").value;
 				  var number = document.getElementById("number").value;
+				  alert(first +' '+last+' '+ ': '+number);
 			}
-		</script> -->
+		</script>
 	</nav>
 	<footer>
 		<ul>
