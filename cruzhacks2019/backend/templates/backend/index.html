@@ -20,6 +20,7 @@
 	<nav>
 		<li><a>First Name</a> </li>
 		<form method="POST">
+		{% csrf_token %}
 		<input name="first" id="name" type="text" placeholder="First Name">
 		<li><a>Last Name </a> </li>
 		<input name="last" id="last" type="text" placeholder="Last Name">
