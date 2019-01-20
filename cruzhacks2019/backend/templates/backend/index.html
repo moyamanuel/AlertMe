@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <title> alertme </title>
+    
+	<link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</head>
+
+<body>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'backend/styles.css' %}">
+	<header></header>
+	<h1> Our goal is to make the population of Santa Cruz County feel safe by providing information through an alert text message so that they can be aware of what is happening around them and take action, if needed. </h1>
+	<nav>
+		<li><a>Name</a> </li>
+		<form action="/">
+		<input id="name" type="text" placeholder="Name">
+		<li><a>Last Name </a> </li>
+		<input id="last" type="text" placeholder="Last Name">
+		<li><a>Number</a> </li>
+		<input id="number" type="text" placeholder="Number">
+		<input type="submit" name="submit" value="Submit" id="submit" />
+		</form>
+		<!-- <script>
+			function submit(){
+				  var first = document.getElementById("name").value;
+				  var last = document.getElementById("last").value;
+				  var number = document.getElementById("number").value;
+			}
+		</script> -->
+	</nav>
+	<footer>
+		<ul>
+			<li> <a>ALERTME</a> | </li>
+			<li> <a> Manuel Moya | Diamond Phu | Pablo Gaeta | Alexandra Martinez | Margot Uchicua </a> </li>
+
+		</ul>
+
+	</footer>
+
+</body>
+
+</html>
