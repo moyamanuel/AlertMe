@@ -67,6 +67,13 @@ python3 manage.py runserver
 You're all set! Open your browser and navigate to 127.0.0.1:8000 to view the project locally. Please open an issue should you
 come across any problems.
 
+## Authors
+* **Pablo Gaeta** - *Back-end* - [pablofgaeta](https://github.com/pablofgaeta)
+* **Alexandra Martinez** - *UI/UX design* - [Alexandra Martinez](https://www.linkedin.com/in/alexandra-martinez-132244102)
+* **Margot Uchicua** - *Front-end* - [Margot Uchicua](https://www.linkedin.com/in/margot-uchicua-51526339)
+* **Diamond Phu** - *Back-end* - [powermanelite](https://github.com/powermanelite)
+* **Manuel Moya** - *Back-end* - [moyamanuel](https://github.com/moyamanuel)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
