@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'cruzhacks2019.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'test',
-        'USER': 'test',
-        'PASSWORD': 'Testing123!@#',
-        'HOST': '104.236.37.73',
+        'NAME': os.getenv('MYSQL_DB', 'MySQL database token not found'),
+        'USER': os.getenv('MYSQL_USER', 'MySQL username token Not found'),
+        'PASSWORD': os.getenv('MYSQL_PASS', 'MySQL password token Not found'),
+        'HOST': os.getenv('MYSQL_HOST', 'MySQL host token not found'),
         'PORT': '3306',
     }
 }
